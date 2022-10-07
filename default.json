@@ -4,8 +4,6 @@
     ":dependencyDashboard",
     ":disableRateLimiting",
     "docker:enableMajor",
-    "docker:pinDigests",
-    ":automergeDigest",
     ":enablePreCommit",
     "github>zekker6/renovate-config:commit-message",
     "github>zekker6/renovate-config:pr-labels",

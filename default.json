@@ -12,6 +12,7 @@
   ],
   "onboarding": false,
   "requireConfig": "optional",
+  "assignees": ["zekker6"],
   "dependencyDashboardTitle": "Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,

@@ -14,9 +14,9 @@
       "fileMatch": [".+\\.ya?ml$"],
       "matchStringsStrategy": "combination",
       "matchStrings": [
-        "targetRevision:(?<currentValue>.*?)\n",
-        "repoURL:(?<registryUrl>.*?)\n",
-        "chart:(?<depName>.*?)\n"
+        "targetRevision:\\s*[\"']?(?<currentValue>[^\"'\\n]*?)[\"']?\\s*\\n",
+        "repoURL:\\s*[\"']?(?<registryUrl>[^\"'\\n]*?)[\"']?\\s*\\n",
+        "chart:\\s*[\"']?(?<depName>[^\"'\\n]*?)[\"']?\\s*\\n"
       ],
       "datasourceTemplate": "helm",
       "versioningTemplate": "semver"

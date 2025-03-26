@@ -8,6 +8,18 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
       "extractVersionTemplate": "{{#if versionTemplate}}{{{versionTemplate}}}{{else}}{{/if}}"
+    },
+    {
+      "description": ["Process helm deps in ArgoCD applications"],
+      "fileMatch": [".+\\.ya?ml$"],
+      "matchStringsStrategy": "combination",
+      "matchStrings": [
+        "targetRevision:(?<currentValue>.*?)\n",
+        "repoURL:(?<registryUrl>.*?)\n",
+        "chart:(?<depName>.*?)\n"
+      ],
+      "datasourceTemplate": "helm",
+      "versioningTemplate": "semver"
     }
   ]
 }

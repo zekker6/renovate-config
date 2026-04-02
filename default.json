@@ -20,7 +20,12 @@
   "packageRules": [
     {
       "description": "Automerge dev tool minor and patch updates",
-      "matchPackageNames": ["nektos/act", "golangci/golangci-lint"],
+      "matchPackageNames": [
+          "nektos/act",
+          "golangci/golangci-lint",
+          "go-task/task",
+          "goreleaser/goreleaser"
+        ],
       "automerge": true,
       "automergeType": "branch",
       "requiredStatusChecks": null,

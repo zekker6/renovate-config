@@ -25,7 +25,7 @@
           "golangci/golangci-lint",
           "go-task/task",
           "goreleaser/goreleaser",
-          "ubi:air-verse/air"
+          "air-verse/air"
         ],
       "automerge": true,
       "automergeType": "branch",

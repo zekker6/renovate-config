@@ -25,7 +25,9 @@
           "golangci/golangci-lint",
           "go-task/task",
           "goreleaser/goreleaser",
-          "air-verse/air"
+          "air-verse/air",
+          "shfmt",
+          "mvdan/sh"
         ],
       "automerge": true,
       "automergeType": "branch",

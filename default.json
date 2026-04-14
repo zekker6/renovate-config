@@ -30,7 +30,8 @@
           "air-verse/air",
           "shfmt",
           "mvdan/sh",
-          "golang/go"
+          "golang/go",
+          "go"
         ],
       "automerge": true,
       "automergeType": "branch",

@@ -29,7 +29,8 @@
           "goreleaser/goreleaser",
           "air-verse/air",
           "shfmt",
-          "mvdan/sh"
+          "mvdan/sh",
+          "golang/go"
         ],
       "automerge": true,
       "automergeType": "branch",

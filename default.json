@@ -5,6 +5,8 @@
     ":disableRateLimiting",
     "docker:enableMajor",
     ":enablePreCommit",
+    "helpers:pinGitHubActionDigests",
+    "helpers:githubDigestChangelogs",
     "github>zekker6/renovate-config:commit-message",
     "github>zekker6/renovate-config:pr-labels",
     "github>zekker6/renovate-config:semantic-commits",

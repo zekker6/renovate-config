@@ -1,0 +1,23 @@
+{
+  "packageRules": [
+    {
+      "matchCategories": [
+        "js",
+        "npm"
+      ],
+      "minimumReleaseAge": "5 days"
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "minimumReleaseAge": "5 days"
+    },
+    {
+      "matchCategories": [
+        "golang"
+      ],
+      "minimumReleaseAge": "5 days"
+    }
+  ]
+}

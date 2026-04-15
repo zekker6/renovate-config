@@ -10,7 +10,9 @@
     "github>zekker6/renovate-config:commit-message",
     "github>zekker6/renovate-config:pr-labels",
     "github>zekker6/renovate-config:semantic-commits",
-    "github>zekker6/renovate-config:generic-regex-manager"
+    "github>zekker6/renovate-config:generic-regex-manager",
+    "github>zekker6/renovate-config:deps-cooldown",
+    "github>zekker6/renovate-config:dev-deps-automerge"
   ],
   "onboarding": false,
   "requireConfig": "optional",
@@ -18,25 +20,5 @@
   "dependencyDashboardTitle": "Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
-  "rebaseWhen": "conflicted",
-  "packageRules": [
-    {
-      "description": "Automerge dev tool minor and patch updates",
-      "matchPackageNames": [
-          "nektos/act",
-          "golangci/golangci-lint",
-          "go-task/task",
-          "goreleaser/goreleaser",
-          "air-verse/air",
-          "shfmt",
-          "mvdan/sh",
-          "golang/go",
-          "go"
-        ],
-      "automerge": true,
-      "automergeType": "branch",
-      "requiredStatusChecks": null,
-      "matchUpdateTypes": ["minor", "patch"]
-    }
-  ]
+  "rebaseWhen": "conflicted"
 }

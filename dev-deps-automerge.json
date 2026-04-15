@@ -12,7 +12,7 @@
         "mvdan/sh",
         "golang/go",
         "go",
-        "modelcontextprotocol/inspector"
+        "@modelcontextprotocol/inspector"
       ],
       "automerge": true,
       "automergeType": "branch",

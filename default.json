@@ -12,7 +12,8 @@
     "github>zekker6/renovate-config:semantic-commits",
     "github>zekker6/renovate-config:generic-regex-manager",
     "github>zekker6/renovate-config:deps-cooldown",
-    "github>zekker6/renovate-config:dev-deps-automerge"
+    "github>zekker6/renovate-config:dev-deps-automerge",
+    "github>zekker6/renovate-config:docker-distroless-debian"
   ],
   "onboarding": false,
   "requireConfig": "optional",

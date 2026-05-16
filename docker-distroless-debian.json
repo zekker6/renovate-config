@@ -1,0 +1,64 @@
+{
+  "packageRules": [
+    {
+      "description": "Suggest upgrading distroless static-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/static-debian12"],
+      "replacementName": "gcr.io/distroless/static-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless base-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/base-debian12"],
+      "replacementName": "gcr.io/distroless/base-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless base-nossl-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/base-nossl-debian12"],
+      "replacementName": "gcr.io/distroless/base-nossl-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless cc-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/cc-debian12"],
+      "replacementName": "gcr.io/distroless/cc-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless python3-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/python3-debian12"],
+      "replacementName": "gcr.io/distroless/python3-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless nodejs20-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/nodejs20-debian12"],
+      "replacementName": "gcr.io/distroless/nodejs20-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless nodejs22-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/nodejs22-debian12"],
+      "replacementName": "gcr.io/distroless/nodejs22-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless java-base-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/java-base-debian12"],
+      "replacementName": "gcr.io/distroless/java-base-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless java17-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/java17-debian12"],
+      "replacementName": "gcr.io/distroless/java17-debian13"
+    },
+    {
+      "description": "Suggest upgrading distroless java21-debian12 to debian13",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["gcr.io/distroless/java21-debian12"],
+      "replacementName": "gcr.io/distroless/java21-debian13"
+    }
+  ]
+}
